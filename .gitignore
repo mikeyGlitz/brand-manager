@@ -2,5 +2,6 @@
 content/archive/**
 content/staging/**
 content/publish/**
-voice.md
+persona/**
+persona/excerpts.txt
 .vscode
