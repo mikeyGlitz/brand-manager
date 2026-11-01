@@ -1,0 +1,6 @@
+.obsidian
+content/archive/**
+content/staging/**
+content/publish/**
+voice.md
+.vscode
