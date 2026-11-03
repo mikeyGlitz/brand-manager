@@ -1,5 +1,13 @@
 # Brand Manager
 
+## Workflow
+
+1. **Persona.** `persona-builder` interviews you and writes your profile and voice guide to `persona/<name>/`.
+2. **Stage.** Drop your images into `content/staging/`.
+3. **Grid.** `grid-builder` picks and orders up to 9 images, copies them to `content/publish/`, and writes `grid.md` with the grid layout and a caption for each image.
+4. **Post.** Drag and drop `grid.md` and the images in `content/publish/` into Muse, and ask Muse to create the grid on Instagram.
+5. **Archive.** Tell Claude you posted the grid. It moves `content/publish/` into the archive and clears `content/staging/`.
+
 ## Bring your own excerpts
 
 When building a persona, you can give `persona-builder` a file of your own writing instead of (or in addition to) answering the voice questions.
